@@ -1,0 +1,11 @@
+{
+  "skills": [
+    {
+      "name": "linkedin-post-creator",
+      "description": "Creates AI Automation authority content for LinkedIn + X with competitor analysis, multi-platform publishing, lead generation, and monetization focus",
+      "trigger": {
+        "command": "/linkedin"
+      }
+    }
+  ]
+}
