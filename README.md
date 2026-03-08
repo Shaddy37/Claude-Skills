@@ -9,6 +9,7 @@ A collection of Claude Code skills for various use cases. These skills help auto
 | Skill | Description | Usage |
 |-------|-------------|-------|
 | **linkedin-post-creator** | Create high-authority LinkedIn + X posts with images | `/linkedin [topic]` |
+| **instagram-content-creator** | Instagram posts, carousels, Reels, Stories | `/instagram [topic]` |
 | **linkedin-automation** | Automate LinkedIn tasks via MCP | Coming soon |
 | **twitter-automation** | Automate Twitter/X tasks via MCP | Coming soon |
 | **x-twitter-scraper** | X data platform skill for lead generation | Coming soon |
@@ -39,7 +40,11 @@ Claude-Skills/
 │   │   ├── SKILL.md              # Main skill definition
 │   │   ├── templates/            # Post templates
 │   │   ├── HOOKS_COLLECTION.md   # Proven hooks
-│   │   ├── CTA_LIBRARY.md        # Call-to-action templates
+│   │   └── ...
+│   ├── instagram-content-creator/
+│   │   ├── SKILL.md
+│   │   ├── CAROUSEL_TEMPLATES.md
+│   │   ├── REELS_IDEAS.md
 │   │   └── ...
 │   ├── linkedin-automation/
 │   ├── twitter-automation/
